@@ -1,0 +1,690 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    user-select: none;
+}
+
+section {
+    width: 1920px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    height: 850px;
+    max-width: 1920px;
+    position: relative;
+    background: url("img/header_bg1.jpg") fixed;
+    overflow: hidden;
+}
+
+.logo {
+    left: 405px;
+    top: 50px;
+    position: absolute;
+}
+
+#heading {
+    font-size: 27px;
+    color: white;
+    top: 85px;
+    left: 510px;
+    position: absolute;
+}
+
+#headings_part {
+    font-weight: bold;
+}
+
+#main_headings {
+    color: white;
+    font-size: 45px;
+    font-weight: lighter;
+    top: 370px;
+    left: 670px;
+    position: absolute;
+    text-align: center;
+    font-stretch: expanded;
+}
+
+.circle_button {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+    left: 920px;
+    top: 575px;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+}
+
+.circle_inside {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    background: lightgrey;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+    transform: rotate(270deg);
+    display: flex;
+    justify-content: center;
+}
+
+.circle_inside p {
+    margin-top: 5px;
+}
+
+.circle_button:hover {
+    opacity: 0.6;
+}
+
+.services {
+    height: 697px;
+    background-color: white;
+    position: relative;
+}
+
+.services_headings {
+    position: absolute;
+    color: black;
+    text-transform: uppercase;
+    top: 85px;
+    left: 775px;
+    font-size: 29px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rect {
+    width: 170px;
+    height: 3px;
+    background-color: #c49b1d;
+    top: 150px;
+    left: 875px;
+    position: absolute;
+}
+
+.services_wrapper {
+    position: absolute;
+    top: 220px;
+    left: 405px;
+    display: flex;
+    align-items: stretch;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+.services_type {
+    width: 350px;
+    height: 320px;
+    text-align: center;
+}
+
+.services_type h2 {
+    color: #c49b1d;
+    font-weight: lighter;
+    font-size: 33px;
+    top: 35px;
+}
+
+.services_type p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 35px;
+    line-height: 27px;
+}
+
+.booking {
+    height: 655px;
+    background-color: #2f3507;
+    position: relative;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.booking_photo {
+    margin-top: -70px;
+    position: absolute;
+}
+
+#man_photo {
+    height: 650px;
+    width: 945px;
+}
+
+.booking_text {
+    width: 500px;
+    color: white;
+    position: absolute;
+    top: 83px;
+    left: 1068px;
+}
+
+#booking_headings {
+   font-weight: lighter;
+    font-size: 30px;
+}
+
+.booking_text p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 30px;
+    background-color: #c49b1d;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: darkorange;
+}
+
+.etc {
+    height: 1426px;
+    position: relative;
+}
+
+.etc_wrapper {
+    top: 74px;
+    left: 405px;
+    position: absolute;
+    display: flex;
+}
+
+.col_wrapper {
+    display: flow;
+}
+
+.etc_col {
+    display: flex;
+    margin-bottom: 75px;
+}
+
+.etc_col:hover {
+    transform: scale(1.1);
+    transition: all 3s ease-out;
+}
+
+.etc_col p {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.etc h2 {
+    color: black;
+    font-weight: lighter;
+    text-transform: uppercase;
+    top: 540px;
+    left: 775px;
+    position: absolute;
+    font-size: 29px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.rect2 {
+    width: 170px;
+    height: 3px;
+    background-color: #c49b1d;
+    position: absolute;
+    left: 875px;
+    top: 630px;
+}
+.media {
+    background-color: #c49b1d;
+    position: absolute;
+    width: 970px;
+    height: 548px;
+    top: 685px;
+    left: 475px;
+}
+
+
+.partners {
+    height: 95px;
+    left: 405px;
+    top: 1260px;
+    display: flex;
+    position: absolute;
+}
+
+.footer {
+    height: 1115px;
+    width: 1920px;
+    background-color: #2f3507;
+    position: relative;
+}
+
+.footer h2 {
+    color: white;
+    position: absolute;
+    left: 705px;
+    top: 87px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 33px;
+}
+
+.calendly-inline-widget {
+    min-width:320px;
+    height:630px;
+    top: 248px;
+}
+
+.footer_logo {
+    display: flex;
+    left: 793px;
+    color: white;
+    position: absolute;
+    top: 995px;
+}
+
+.footer_logo p {
+    margin-top: 40px;
+    font-size: 10px;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+    * {
+        max-width: 575px;
+    }
+
+    section {
+        max-width: 575px;
+    }
+    .header {
+        max-width: 575px;
+        height: 570px;
+        position: relative;
+        background: url("img/mobile2.jpg");
+
+    }
+
+    .logo {
+        top: 165px;
+        left: 146px;
+    }
+
+    #heading {
+        font-size: 27px;
+        top: 200px;
+        left: 267px;
+    }
+
+    #main_headings {
+        font-size: 20px;
+        top: 290px;
+        left: 134px;
+    }
+
+    .circle_button {
+        display: none;
+    }
+
+    .services {
+        height: 1306px;
+        max-width: 575px;
+    }
+
+    .services_headings {
+        top:36px;
+        left: 184px;
+        font-size: 15px;
+    }
+
+    .rect {
+        top: 75px;
+        left: 220px;
+        width: 126px;
+    }
+
+    .services_wrapper {
+        top: 115px;
+        left: 108px;
+        display: table;
+        font-size: 12px;
+        width: 400px;
+    }
+
+
+    .services_type:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .services_type p {
+        font-size: 12px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+
+    .services_type h2 {
+        top: 5px;
+    }
+
+    #man_photo {
+        content: url("img/man_mob.png");
+        height: 367px;
+        width: 400px;
+        margin-left: 90px;
+        margin-top: -80px;
+    }
+
+    .booking {
+        max-width: 575px;
+    }
+
+    .booking_text {
+        width: 400px;
+        top: 250px;
+        left: 90px;
+        text-align: center;
+    }
+
+    #booking_headings {
+        font-size: 22px;
+    }
+
+    .booking_text p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .button {
+        margin-left: 105px;
+    }
+
+    .etc {
+        height: 1110px;
+        max-width: 575px;
+    }
+
+    .etc_wrapper {
+        left: 5px;
+        top: 25px;
+    }
+
+    .etc_col {
+        display: table;
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .etc_col p {
+        margin-top: 8px;
+        font-size: 13px;
+    }
+
+    .etc h2 {
+        font-size: 16px;
+        left:185px;
+    }
+
+    .rect2 {
+        width: 128px;
+        left: 225px;
+        top: 580px;
+    }
+
+    .media {
+        width: 500px;
+        height: 275px;
+        top: 597px;
+        left: 46px;
+        max-width: 575px;
+    }
+
+    .partners {
+        content: url("img/partners_mob.png");
+        position: absolute;
+        left: 45px;
+        top: 915px;
+        width: 500px;
+        height: 142px;
+    }
+
+    .footer {
+        height: 930px;
+        max-width: 575px;
+    }
+
+    .footer h2 {
+        top: 38px;
+        left: 80px;
+        font-size: 23px;
+    }
+
+    .calendly-inline-widget {
+        box-sizing: border-box;
+        height: 700px;
+        width: 240px;
+        left: 110px;
+        top: 155px;
+    }
+
+    .footer_logo {
+        left: 190px;
+        top: 840px;
+    }
+
+    .footer_logo img {
+        display: none;
+    }
+
+    .footer_logo p {
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 575px) and (max-width: 1366px) {
+    * {
+        max-width: 1366px;
+    }
+
+    section {
+        max-width: 1366px;
+    }
+    .header {
+        max-width: 1366px;
+        height: 660px;
+        position: relative;
+        background: url("img/header_bg_laptop.jpg") fixed;
+    }
+
+    .logo {
+        top: 40px;
+        left: 48px;
+    }
+
+    #heading {
+        font-size: 27px;
+        top: 67px;
+        left: 170px;
+    }
+
+    #main_headings {
+        font-size: 40px;
+        top: 280px;
+        left: 320px;
+    }
+
+    .circle_button {
+        top: 430px;
+        left: 620px;
+
+    }
+
+    .services {
+        height: 620px;
+        max-width: 1366px;
+    }
+
+    .services_headings {
+        top:60px;
+        left: 515px;
+        font-size: 23px;
+    }
+
+    .rect {
+        top: 118px;
+        left: 574px;
+        width: 172px;
+    }
+
+    .services_wrapper {
+        top: 172px;
+        left: 110px;
+        display: flex;
+        font-size: 12px;
+        width: 1104px;
+    }
+
+    .services_type p {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .services_type h2 {
+        top: 5px;
+    }
+
+    #man_photo {
+        content: url("img/man_big_laptop.jpg");
+        margin-left: 0px;
+        margin-top: -10px;
+        height: 602px;
+        width: 580px;
+    }
+
+    .booking {
+        height: 602px;
+        max-width: 1366px;
+    }
+
+    .booking_text {
+        width: 540px;
+        top: 75px;
+        left: 715px;
+        text-align: left;
+    }
+
+    #booking_headings {
+        font-size: 26px;
+    }
+
+    .booking_text p {
+        font-size: 17px;
+        margin-top: 20px;
+        font-weight: lighter;
+    }
+
+    .button {
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+
+    .etc {
+        height: 1266px;
+        max-width: 1366px;
+    }
+
+    .etc_wrapper {
+        left: 150px;
+        top: 25px;
+        width: 1020px;
+    }
+
+    .etc_col {
+        display: table;
+        font-size: 13px;
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 100px;
+    }
+
+    .etc_col p {
+        margin-top: 8px;
+        font-size: 13px;
+    }
+
+    .etc h2 {
+        top: 490px;
+        font-size: 16px;
+        left: 540px;
+    }
+
+    .rect2 {
+        width: 173px;
+        left: 560px;
+        top: 540px;
+    }
+
+    .media {
+        width: 914px;
+        height: 514px;
+        top: 597px;
+        left: 196px;
+    }
+
+    .partners {
+        content: url("img/partners.png");
+        position: absolute;
+        left: 104px;
+        top: 1128px;
+        width: 1154px;
+        height: 94px;
+    }
+
+    .footer {
+        height: 920px;
+        max-width: 1366px;
+    }
+
+    .footer h2 {
+        top: 63px;
+        left: 398px;
+        font-size: 28px;
+    }
+
+    .calendly-inline-widget {
+        box-sizing: border-box;
+        height: 700px;
+        width: 1300px;
+        left: 40px;
+        top: 155px;
+    }
+
+    .footer_logo {
+        left: 622px;
+        top: 840px;
+    }
+
+    .footer_logo img {
+        height: 72px;
+        width: 61px;
+        margin: 0;
+    }
+
+    .footer_logo p {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+}
+
